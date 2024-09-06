@@ -1,33 +1,13 @@
-# Next.js Starter (App Router)
+# Next.js TAS
 
-## Getting Started
+This repository contains some Next.js applications that can be deployed to Tanzu Application Service (TAS) using Cloud
+Foundry. Each application has a `manifest.yml` which contains the instructions which specify deployment details.
 
-### Development mode
-```bash
-npm install
-npm run dev
-```
+## Static
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This application is a Single Page Application (SPA) that is deployed statically using the static buildpack.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Server
 
-### Production mode
-
-```bash
-npm install
-npm run build
-npm run start
-```
-
-Your app should be up and running on [http://localhost:3000](http://localhost:3000)!
-
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This application utilizes Next.js server rendered components to dynamically renders pages, which is deployed using the
+Node.js buildpack.f

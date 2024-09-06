@@ -1,0 +1,10 @@
+---
+applications:
+  - name: nextjs-tas-server
+    path: .next
+    buildpacks:
+      - nodejs_buildpack
+    instances: 1
+    memory: 512M
+    disk_quota: 1G
+    command: node standalone/server.js

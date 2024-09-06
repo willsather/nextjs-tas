@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: nextjs-tas
+  - name: nextjs-tas-static
     path: ./out
     buildpacks:
       - staticfile_buildpack
