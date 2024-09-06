@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starter",
+  "name": "nextjs-tas",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,7 +37,6 @@
     "typescript": "5.4.5",
     "vitest": "^1.6.0"
   },
-  "packageManager": "pnpm@8.15.4",
   "engines": {
     "node": ">=20"
   }

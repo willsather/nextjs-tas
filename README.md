@@ -4,8 +4,8 @@
 
 ### Development mode
 ```bash
-pnpm install
-pnpm run dev
+npm install
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -15,9 +15,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ### Production mode
 
 ```bash
-pnpm install
-pnpm run build
-pnpm run start
+npm install
+npm run build
+npm run start
 ```
 
 Your app should be up and running on [http://localhost:3000](http://localhost:3000)!
