@@ -1,0 +1,12 @@
+---
+applications:
+  - name: nextjs-tas-server-cfenv
+    path: .next
+    buildpacks:
+      - nodejs_buildpack
+    instances: 1
+    memory: 512M
+    disk_quota: 1G
+    command: node standalone/server.js
+    env:
+      FAKE_ENV_VAR: "apple0rchard"

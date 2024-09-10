@@ -1,4 +1,10 @@
 {
-  "extends": ["next", "prettier"],
-  "plugins": ["testing-library", "prettier"]
+  "extends": [
+    "next",
+    "prettier"
+  ],
+  "plugins": [
+    "testing-library",
+    "prettier"
+  ]
 }

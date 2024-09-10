@@ -1,6 +1,8 @@
 export const dynamic = "force-dynamic";
 
 export default function Home() {
+  console.log("Rendering new Home Page");
+
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <h1 className="my-8 font-bold">Next.js TAS (Server)</h1>

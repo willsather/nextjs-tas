@@ -23,6 +23,31 @@ npm run start
 
 Your app should be up and running on [http://localhost:3000](http://localhost:3000)!
 
+## Environment Variables
+
+In your local environment, create a `env.local` file that looks like:
+
+```dotenv
+VCAP_SERVICES='{
+  "database": [
+          {
+              "name": "database",
+              "label": "user-provided",
+              "tags": [],
+              "credentials": {
+                  "url": "https://fake.database.url.com",
+                  "password": "passw0rd"
+              }
+          }
+      ]
+}'
+
+FAKE_ENV_VAR=hello
+```
+
+If using Cloud Foundry, you can create a User Provided Environment Variable `FAKE_ENV_VAR` and a User Provided Service (
+UPS) named `database` service that provides some fake data.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
